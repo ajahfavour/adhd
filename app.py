@@ -87,15 +87,15 @@ def main():
             st.write("It's okay! Many successful people have ADHD. Embrace your uniqueness!")
 
         # Display input feature visualization
-        st.subheader('Input Feature Visualization')
-        input_features_names = ['Age', 'tr1', 'tr2', 'tr8', 'tr12', 'tr14', 'tr15', 'tr19', 'tr21', 'tr23', 'tr24',
-                                 'tr26', 'tr27', 'tr28', 'tr29', 'tr33', 'tr34', 'tr37', 'tr38', 'tr40']
-        st.bar_chart(dict(zip(input_features_names, input_features)))
+        #st.subheader('Input Feature Visualization')
+        #input_features_names = ['Age', 'tr1', 'tr2', 'tr8', 'tr12', 'tr14', 'tr15', 'tr19', 'tr21', 'tr23', 'tr24',
+        #                         'tr26', 'tr27', 'tr28', 'tr29', 'tr33', 'tr34', 'tr37', 'tr38', 'tr40']
+        #st.bar_chart(dict(zip(input_features_names, input_features)))
 
         # Display an explanation for influential features using coefficients
-        st.subheader('Influential Features (Logistic Regression Coefficients)')
-        coefficients = model.coef_[0]
-        st.bar_chart(dict(zip(input_features_names, coefficients)))
+        #st.subheader('Influential Features (Logistic Regression Coefficients)')
+        #coefficients = model.coef_[0]
+        #st.bar_chart(dict(zip(input_features_names, coefficients)))
 
 
 if __name__ == '__main__':
